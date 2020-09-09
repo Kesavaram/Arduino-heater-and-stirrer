@@ -1,10 +1,13 @@
 /*
    This program is modified from the AutoPID BasicTempControl Example Sketch
   Functions of this program
-   1.  read a 10k NTC thermistor temperature probe as input, potentiometer as setpoint, drive an heater bed as PWM output.
-   2.  Drives a stepper using a stepper driver module which rotates to stir a liquid mixture.
+   1.  Read a 10k NTC thermistor temperature probe as input, potentiometer as setpoint, drive an heater bed as PWM output.
+   2.  Drive a stepper using a stepper driver module which acts a stirrer
    3.  Display temperature information on a I2C LCD display 
-   
+  Libraries used
+   1. Arduino wire library
+   2. AutoPID library created by Ryan Downning
+   3. LCD03 by Arblaster
 */
 
 
